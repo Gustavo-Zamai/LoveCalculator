@@ -55,7 +55,7 @@ h1 {
 #love-calculator-form button {
     font-family: 'Emilys Candy', serif;
     font-size: 2rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
     padding: 1rem 2rem;
     background-color:#EA1758;
     border: none;
@@ -67,6 +67,21 @@ h1 {
     background-color: #D9104C;
 }
 
+@media (max-width: 900px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    .content p {
+        font-size: 2em;
+        width: 100vw;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 
 @media (max-width: 700px) {
     h1 {
@@ -75,7 +90,9 @@ h1 {
 
     .content p {
         font-size: 2em;
-        width: 70vw;
-        padding: 0;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
