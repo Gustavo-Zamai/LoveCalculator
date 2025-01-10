@@ -67,6 +67,12 @@ h1 {
     background-color: #D9104C;
 }
 
+footer {
+    font-family: 'Emilys Candy', serif;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
 @media (max-width: 900px) {
     h1 {
         font-size: 3em;
