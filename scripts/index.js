@@ -1,5 +1,5 @@
 
-document.querySelector('button').addEventListener('click', function () {
+document.querySelector('a').addEventListener('click', function () {
     var randomNumber = Math.floor(Math.random() * 100) + 1;
  
     if (randomNumber > 90) {
@@ -26,7 +26,12 @@ document.querySelector('button').addEventListener('click', function () {
     var splitedName2 = name2.slice(0, name2.length);
     var name2 = splitedName2.charAt(0).toUpperCase() + splitedName2.slice(1);
 
-    alert(name1 + " & " + name2 + " has " + randomNumber + "% " + message);
+    var result = (name1 + " & " + name2 + " has " + randomNumber + "% " + message);
+
+    return result;
 
 });
+
+
+document.getElementById('result').textContent = result;
 
