@@ -1,0 +1,82 @@
+h1 {
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-size: 6em;
+}
+
+.content {
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.content p {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+#love-calculator-form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+#love-calculator-form label {
+    font-family: 'Emilys Candy', serif;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+#love-calculator-form input {
+    padding: 1rem;
+    border-radius: 10rem;
+}
+
+#love-calculator-form a {
+    font-family: 'Emilys Candy', serif;
+    font-size: 2rem;
+    margin-top: 4rem;
+    padding: 1rem 2rem;
+    background-color:#EA1758;
+    border: none;
+    border-radius: 10rem;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#love-calculator-form a:hover {
+    background-color: #D9104C;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    .content p {
+        font-size: 2em;
+        width: 100vw;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    .content p {
+        font-size: 2em;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
