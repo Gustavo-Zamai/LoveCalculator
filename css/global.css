@@ -16,6 +16,12 @@ header {
     margin: 2rem;
 }
 
+h1 {
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-size: 6em;
+}
+
 footer {
     font-family: 'Emilys Candy', serif;
     font-size: 1rem;
